@@ -1,0 +1,516 @@
+@media screen and (max-width: 1441px) {
+    .HeadingsCont p {
+        font-size: 17px;
+    }
+
+    .HeadingsCont h1 {
+        font-size: 54px;
+    }
+
+    .HeadingsCont h1 {
+        font-size: 54px;
+    }
+
+    .FilterCont {
+        min-width: 800px;
+    }
+
+    .ThirdPageGrid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .FifthGrid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+@media screen and (max-width: 1390px) {
+    .FilterCont {
+        display: none;
+    }
+
+    .sectionHeroAlign {
+        width: 60%;
+        min-width: 700px;
+
+    }
+
+    .navsButton {
+        width: 120px;
+    }
+
+    .navs {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1155px) {
+    .SecondPage {
+        width: 100%;
+        height: max-content;
+    }
+
+    .SecondPageAlign {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .SecondPageAlignLeft {
+        width: 80%;
+        height: 50vh;
+        margin-top: 25vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .carousel-card {
+        flex: 0 0 98%;
+    }
+
+    .carousel-inner {
+        height: 80%;
+    }
+
+    .SecondPageAlignRight {
+        width: 80%;
+        height: 40%;
+    }
+
+    .SecondPageAlignMiddle {
+        height: 10vh;
+    }
+
+    .SecondPageAlignMiddle {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: inherit;
+        gap: 10px;
+    }
+
+    .carousel-prev,
+    .carousel-next {
+        position: inherit;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .ThirdPageGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .ForthGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .FourthPage {
+        height: max-content;
+    }
+
+    .FifthGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media screen and (max-width: 852px) {
+
+    .sectionHeroAlign {
+        width: 60%;
+        min-width: 620px;
+    }
+
+    .navs {
+        width: 60%;
+    }
+
+    .footerAlign {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .FirstCartFooter {
+        width: 50%;
+    }
+
+    .SecondCartFooter {
+        width: 50%;
+    }
+
+    .CHATBOX {
+        width: 50%;
+    }
+
+    .footerAlign {
+        height: max-content;
+    }
+
+    .headerAlign {
+        width: 90%;
+    }
+
+    .carousel-card {
+        flex: 0 0 96%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #Home,
+    #About,
+    #Destination,
+    #Services,
+    #Blogs,
+    #Contact {
+        display: none;
+    }
+
+
+    .navsButton {
+        width: 120px;
+    }
+
+    nav {
+        width: 100%;
+        height: 40px;
+        background-color: #222222;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style-type: none;
+        position: fixed;
+        color: #FFFFFF;
+        transition: 0.4s ease all;
+    }
+
+
+    .NavsOnTabletI {
+        top: 0;
+        z-index: 1;
+    }
+
+    .NavsOnTabletA {
+        top: 100px;
+        z-index: 4;
+    }
+
+
+    .navs {
+        justify-content: end;
+    }
+
+    .navs1 {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        transition: 0.4s ease all;
+    }
+
+    .navs1 li:hover {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .ShowNavs {
+        height: 50px;
+        border: 2px solid #838158;
+        color: #838158;
+        background-color: transparent;
+        border-radius: 25px;
+        outline: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ShowNavs button {
+        background-color: transparent;
+        color: inherit;
+        border: none;
+        width: 100%;
+        height: 100%;
+        transition: 0.4s ease all;
+        font-size: 20px;
+    }
+
+    #MoreNavs {
+        display: block;
+        height: 50px;
+    }
+
+    .LG {
+        height: calc(100vh - 150px);
+    }
+
+    .FirstCartFooter {
+        width: 60%;
+    }
+
+    .SecondCartFooter {
+        width: 60%;
+    }
+
+    .CHATBOX {
+        width: 70%;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 664px) {
+
+    .ForthGrid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .FifthGrid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .sectionHero {
+        width: 100%;
+        height: 100%;
+        margin-top: 100px;
+        border-radius: 0;
+    }
+
+    .SecondPageAlignLeft {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .ThirdPageGrid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .navs {
+        width: 55%;
+    }
+
+    .ReadMoreMainContend {
+        width: 500px;
+        height: 500px;
+    }
+
+    .briefDescription {
+        width: 500px;
+        height: 450px;
+    }
+
+    .sectionHeroAlign {
+        width: 60%;
+        min-width: 510px;
+    }
+
+    .SecondPageAlignRight {
+        width: 90%;
+    }
+
+    body::-webkit-scrollbar {
+        width: 0px;
+    }
+
+    .CHATBOX {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .HeroButton button {
+        font-size: 14px;
+    }
+
+    .HeadingsCont p {
+        font-size: 15px;
+    }
+
+    .HeadingsCont h1 {
+        font-size: 50px;
+    }
+
+    .LastPageAlign p {
+        font-size: 15px;
+    }
+
+    .LastPageAlign button {
+        font-size: 14px;
+    }
+
+    .LastPageAlign {
+        width: 90%;
+        height: max-content;
+    }
+
+    .LastPageAlign h1 {
+        font-size: 34px;
+    }
+
+    .ThirdPageAlign h3,
+    .FouthPageAlign h3,
+    .FifthPageAlign h3,
+    .LastPageAlign h3 {
+        font-size: 24px;
+    }
+
+    .ThirdPageAlign h1,
+    .FouthPageAlign h1,
+    .FifthPageAlign h1,
+    .LastPageAlign h1 {
+        font-size: 26px;
+    }
+
+    .textContGrid5 h1 {
+        font-size: 24px;
+    }
+
+    .FirstCartFooter,
+    .SecondCartFooter {
+        width: 100%;
+    }
+
+    .CHATBOX {
+        width: 90%;
+    }
+
+    .HeadingsCont h1 {
+        font-size: 40px;
+    }
+
+    .HeadingsCont p {
+        font-size: 15px;
+        width: 90%;
+    }
+
+    .navs1 {
+        width: 90%;
+    }
+
+    .ShowNavs {
+        width: 50px;
+    }
+
+}
+
+@media screen and (max-width: 426px) {
+    .gridTextAlign3 h1 {
+        font-size: 20px;
+    }
+
+    .gridTextAlign3 p {
+        font-size: 12px;
+    }
+
+    .FirstCartFooter h1,
+    .SecondCartFooter h1 {
+        font-size: 28px;
+    }
+
+    .SecondCartFooter ul {
+        font-size: 14px;
+    }
+
+    .CHATBOX {
+        width: calc(100% - 20px);
+    }
+
+    .textContGrid5 h1 {
+        font-size: 20px;
+    }
+
+    .navs1 {
+        width: 90%;
+        overflow: scroll;
+        display: grid;
+        grid-template-columns: 70px 70px 110px 90px 70px 60px;
+    }
+
+    .FifthPageAlign,
+    .FouthPageAlign,
+    .ThirdPageAlign {
+        width: 90%;
+    }
+
+    .footerAlign {
+        height: max-content;
+        width: 90%;
+    }
+
+    .SecondPageAlignRight {
+        width: 110%;
+    }
+
+    .carousel-card1 h1 {
+        font-size: 28px;
+    }
+
+    .carousel-card1 span {
+        font-size: 24px;
+    }
+
+    .navsButton {
+        width: 110px;
+    }
+
+    .carousel-card {
+        flex: 0 0 95%;
+    }
+
+    .ThirdPageAlign h1,
+    .FouthPageAlign h1,
+    .FifthPageAlign h1,
+    .LastPageAlign h1 {
+        font-size: 24px;
+    }
+
+
+    .ReadMoreMainContend {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 500px;
+        grid-auto-rows: 500px;
+    }
+
+    .ReadMoreContAlign {
+        overflow: scroll;
+    }
+
+    .CrossButton {
+        position: fixed;
+    }
+
+    .ReadMoreCont3 {
+        display: none;
+    }
+    .carousel-prev, .carousel-next {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .HeadingsCont {
+        height: 90%;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .carousel-card {
+        flex: 0 0 92%;
+    }
+
+    .HeadingsCont {
+        height: 90%;
+        width: 60%;
+    }
+}
